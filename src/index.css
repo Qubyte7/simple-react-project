@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar{
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   max-width: 600px;
+   margin: auto;
+   border-bottom: 1px solid rgb(247, 247, 247);
+}
+.navbar h1{
+  font-family: happy;
+  color: rgb(230, 55, 55);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar .links{
+  margin-left: auto;
 }
+.navbar a{
+  font-family: happy;
+  color: black;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover{
+  color: red;
+  transition: 0.5s;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+@font-face{
+  font-family: happy;
+    src: url(./Happy\ Birthday.otf);
+}
+.name{
+  font-family: happy;
+}
+.age{
+  font-family: happy;
+}
+.heading{
+  color: rgb(207, 37, 37);
+}
+
+.blo-preview:hover{
+  border-radius: 20px;
+box-shadow: 2px 0px 2px 0px rgb(101, 100, 100);
+transition: 0.5s;
+
+}
+.blo-preview button{
+  margin-bottom: 4px;
+  
+}
+
