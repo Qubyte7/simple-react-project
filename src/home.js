@@ -30,10 +30,10 @@ const newBlogs = blogs.filter(blog => blog.id !== id);
 setBlogs(newBlogs)
 }
 //useEffect 
-useEffect(()=>{//note that this function at every render
-   console.log("use effect ran");
+useEffect(()=>{//note that defaultly this function at every render
+    console.log("use effect ran");
    console.log(blogs)
-});
+});  
 
 return ( 
     <div className="home">``
